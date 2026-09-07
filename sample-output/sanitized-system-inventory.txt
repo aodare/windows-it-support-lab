@@ -1,0 +1,80 @@
+Windows IT Support Lab - System Inventory
+Generated (local time): 2026-09-07 16:10:00
+
+========================================================================
+System Information
+========================================================================
+
+ComputerName      : LAB-WIN11-01
+CurrentUser       : LAB\demo.user
+Manufacturer      : Contoso Hardware
+Model             : ExampleBook 14
+WindowsCaption    : Microsoft Windows 11 Pro
+WindowsVersion    : 10.0.26100
+OSBuildNumber     : 26100
+SystemType        : x64-based PC
+BIOSVersion       : EXAMPLE.1.0.0
+Processor         : Example CPU @ 3.00GHz
+InstalledMemoryGB : 16
+LastBootTime      : 09/07/2026 08:12:33
+UptimeHours       : 7.96
+
+========================================================================
+Fixed Disk Usage
+========================================================================
+
+DeviceID VolumeName SizeGB FreeGB FreePercent
+-------- ---------- ------ ------ -----------
+C:       Windows    237.00 142.50 60.13
+D:       Data       465.00 301.25 64.75
+
+========================================================================
+Network Configuration
+========================================================================
+
+InterfaceAlias      InterfaceDescription                  IPv4Address   IPv6Address IPv4Gateway DNSServers
+--------------      --------------------                  -----------   ----------- ----------- ----------
+Ethernet            Example Ethernet Adapter              192.0.2.25               192.0.2.1   192.0.2.53, 198.51.100.53
+Wi-Fi               Example Wireless Adapter              192.0.2.26               192.0.2.1   192.0.2.53, 198.51.100.53
+
+========================================================================
+Network Adapter Status
+========================================================================
+
+Name     InterfaceDescription                  Status       LinkSpeed MacAddress
+----     --------------------                  ------       --------- ----------
+Ethernet Example Ethernet Adapter              Up           1 Gbps     00-00-00-00-00-00
+Wi-Fi    Example Wireless Adapter              Disconnected 0 bps      00-00-00-00-00-00
+
+========================================================================
+Selected Windows Services
+========================================================================
+
+Name             DisplayName                         Status  StartType
+----             -----------                         ------  ---------
+BITS             Background Intelligent Transfer... Running Manual
+Dhcp             DHCP Client                         Running Automatic
+Dnscache         DNS Client                          Running Automatic
+EventLog         Windows Event Log                   Running Automatic
+LanmanWorkstation Workstation                        Running Automatic
+Spooler          Print Spooler                       Running Automatic
+WinRM            Windows Remote Management          Running Automatic
+wuauserv         Windows Update                     Running Manual
+
+========================================================================
+Recent System Errors
+========================================================================
+
+TimeCreated  : 09/06/2026 11:42:15
+ProviderName : ExampleDriver
+Id           : 1001
+LevelDisplayName : Error
+Message      : Example sanitized driver warning. No action required in this sample.
+
+========================================================================
+Report Notes
+========================================================================
+
+This report is fictional and sanitized for portfolio demonstration.
+All names, hardware details, IP addresses, MAC addresses, and event data are placeholders.
+Review and sanitize all real diagnostic output before sharing.
