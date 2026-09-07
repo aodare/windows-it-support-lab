@@ -107,13 +107,13 @@ This project uses a repeatable support workflow:
 - Basic Windows Event Log investigation.
 - Documentation, ticket communication, and privacy-aware report handling.
 
-## Planned Documentation
+## Documentation
 
-- Workstation setup and verification checklist.
-- User and permission-management workflow.
-- Network troubleshooting runbook.
-- Common troubleshooting playbooks.
-- Example support tickets with sanitized evidence and resolution notes.
+- [Workstation setup and verification checklist](docs/workstation-setup.md)
+- [Network troubleshooting runbook](docs/network-troubleshooting.md)
+- [Common Windows troubleshooting playbooks](docs/troubleshooting-playbooks.md)
+- [Fictional IT support ticket examples](docs/ticket-examples.md)
+- [Sanitized system inventory sample output](sample-output/sanitized-system-inventory.txt)
 
 ## Disclaimer
 
