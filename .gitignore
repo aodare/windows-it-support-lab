@@ -1,0 +1,50 @@
+# Generated reports from local script execution
+reports/
+*.log
+*.etl
+*.evtx
+
+# PowerShell editor and user-specific settings
+*.ps1.user
+*.psd1.user
+*.ps1xml.user
+*.clixml
+
+# Local configuration and environment files
+.env
+.env.*
+*.local
+local-settings.json
+settings.local.json
+
+# Potentially sensitive exports or diagnostic artifacts
+*.csv
+*.xlsx
+*.json
+*.xml
+*.zip
+*.7z
+*.rar
+
+# Screenshots and screen recordings
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.mp4
+*.mov
+
+# Remote Desktop and VPN-related files
+*.rdp
+*.ovpn
+
+# Windows and temporary files
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
+~$*
+
+# Visual Studio Code workspace settings
+.vscode/
